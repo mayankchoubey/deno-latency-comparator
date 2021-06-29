@@ -68,8 +68,8 @@ async function buildSUTData() {
         Deno.exit(1);
     }
 
-    if(configData.a.name.length>5 || configData.b.name.length>5) {
-        printError("Name can be upto 5 characters");
+    if(configData.a.name.length>8 || configData.b.name.length>8) {
+        printError("Name can be upto 8 characters");
         Deno.exit(1);
     }
 
