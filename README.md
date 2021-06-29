@@ -20,10 +20,5 @@ The latency comparator always produces output on the console. A rolling mean of 
 
 ## Examples
 
-deno run -q --allow-read --allow-net --allow-hrtime --unstable app.ts deno=http://localhost:3000 node=http://localhost:4000 -f ./testdata/sample.pdf  -c 5
-Initializing 5 workers ....
-Initialized 5 workers ....
-
-5 concurrent connections, method POST
-
-28503 ms   DENO lat=3.421ms for reqs=728     NODE lat=5.481ms for reqs=727
+![](https://github.com/mayankchoubey/deno-latency-comparator/blob/77a47563263bfd0db7aea3b405c29188edd42176/Screen%20Shot%202021-06-28%20at%208.07.44%20PM.png)
+![](https://github.com/mayankchoubey/deno-latency-comparator/blob/77a47563263bfd0db7aea3b405c29188edd42176/Screen%20Shot%202021-06-28%20at%208.09.00%20PM.png)
